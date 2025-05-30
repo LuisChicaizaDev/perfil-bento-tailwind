@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/Roboto-Variable.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+/* Personalizar variables y crear variables*/
+@theme {
+    /*Colores personalizados*/
+    --color-primary: #4a90e2;
+    --color-primary-light: #6ab7f9;
+    --color-primary-dark: #3b78c2;
+
+    /*Fuentes personalizadas*/
+    --font-roboto: "Roboto", sans-serif;
+
+    /* Breakpoints */
+    --breakpoint-xs: 390px;
+}
+
+/*Usar las clases de Tailwind y aplicarle a una clase de HTML*/
+.social-button {
+    @apply p-2 size-10 xs:size-12 flex items-center justify-center  rounded-full hover:scale-90 transition-transform duration-500;
+}
