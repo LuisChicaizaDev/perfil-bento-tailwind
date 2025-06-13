@@ -2,7 +2,9 @@
 
 Proyecto práctico desarrollado siguiendo el [Curso Tailwind CSS 4 desde cero](https://www.youtube.com/watch?v=R5EXap3vNDA) de [MiduDev](https://github.com/midudev), con un toque personalizado y adapatado a móviles.
 
-🎯 **Objetivo**: Aprender Tailwind CSS y practicar utility classes, diseño responsive, animaciones, personalizar colores y más. 
+🎯 **Objetivo**: Aprender Tailwind CSS y practicar utility classes, diseño responsive, animaciones, personalizar colores y fuentes. 
+
+![perfil-bento-tailwind](https://github.com/user-attachments/assets/ff44ab01-7b77-4f30-b4a7-e222c982e714)
 
 
 ## 📄 Características
